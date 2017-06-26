@@ -1,0 +1,199 @@
+h1 {
+    text-shadow: 6px 2px black;
+}
+.task, h4, body, h3 {
+    color: white;
+}
+.jumbotron {
+    z-index: 1;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    width: 100%;
+
+}
+#bg2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('././images/img1.jpg');
+    background-size: cover;
+    z-index: 0;
+}
+
+div.row {
+    overflow-y: hidden;
+    margin-top: 300px;
+    bottom: 0;
+
+}
+
+.nav-pills li a {
+    margin: 2px;
+}
+.nav-pills li a:hover {
+    background-color: darkslateblue;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+nav.col-md-2 {
+    font-size: 26px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+div.col-md-9 div {
+    height: 250px;
+    font-size: 28px;
+    margin: 10px auto 0 auto;
+}
+div.col-md-9 h1, h3, p {
+    padding: 0 10px;
+}
+
+
+* img:hover {
+    opacity: 0.5;
+}
+
+.center-block {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+}
+
+#section0 {color: #fff; background-color: #1E88E5; opacity: 0.7;}
+#section1 {color: #fff; background-color: #673ab7; opacity: 0.7;}
+#section2 {color: #fff; background-color: #399051; opacity: 0.7;}
+#section3 {color: #fff; background-color: #ff9800; opacity: 0.7;}
+
+
+
+/*@media */
+@media screen and (max-width: 810px) {
+    #section0, #section1, #section2, #section3 {
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #section0, #section1, #section2, #section3, div.jumbotron, h1, h3 {
+    }
+
+    .nav-pills {
+
+        font-size: 18px;
+        opacity: 0.5;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #section0, #section1, #section2, #section3 {
+        height: 30%;
+        width: auto;
+    }
+
+    div.col-md-9 {
+        margin-left: 0;
+        float: none;
+    }
+
+    [class*="col-md-2"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+        #section0, #section1, #section2, #section3, div.scroll, div.jumbotron, h1, h3 {
+        }
+
+        nav.col-md-2 {
+            float: none;
+            position: static;
+            margin-top: 0;
+        }
+
+        div.col-md-9 {
+            margin: 40px auto auto;
+            float: none;
+            text-align: center;
+        }
+
+        .nav-pills {
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            background-color: white;
+            opacity: 0.5;
+            position: fixed;
+            width: 100%;
+            margin-top: 0;
+
+        }
+}
+
+    @media screen and (min-width: 1025px) {
+        .jumbotron h1 {
+            font-size: 7em;
+        }
+
+        .jumbotron h3 {
+            font-size: 3em;
+        }
+    }
+/*contact CSS*/
+
+/*Contact CSS */
+
+body {
+    background-color: #aab6d3;
+}
+input[type=text] {
+    width: 50%;
+    height: auto;
+    font-size: 16px;
+    padding: 12px 10px;
+    margin: 5px 5px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #0a2251;
+}
+textarea {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: auto;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1e23aa;
+    padding: 5px 15px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+form {
+    color: #0a2251;
+    margin: 5px 5px;
+}
