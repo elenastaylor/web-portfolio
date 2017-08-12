@@ -239,7 +239,7 @@ div.col-md-9 h1, h3, p {
 /*Contact CSS */
 
 body {
-    background-color: #aab6d3;
+    background: linear-gradient(to right, slategrey, #aed4f8, transparent)
 }
 input[type=text] {
     width: 50%;

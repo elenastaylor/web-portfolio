@@ -17,6 +17,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Email Hookup-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </head>
 <body>
 
@@ -32,11 +36,11 @@
             <div class="row">
                 <div class="col-md-9">
 
-                    <form method="post" action="email.php">
+                    <form action="https://formspree.io/elena.staylor@gmail.com" method="POST">
                         Name:<br>
                         <input type="text" name="name" placeholder="Your Name"><br>
                         Email:<br>
-                        <input type="text" name="mail" placeholder="Your Email"><br>
+                        <input type="email" name="_replyto" placeholder="    Your Email"><br>
                         Message:<br>
                         <textarea name="message" rows="9" cols="65">
                         </textarea><br><br>
@@ -51,9 +55,11 @@
 </div>
 
 
+
+
 <footer class="text-center">
     <div class="container">
-        <p style="font-size: 16px; color: silver">&copy;&nbsp;Copyright 2017 Elena Staylor</p>
+        <p style="font-size: 16px; color: #4e26d3">&copy;&nbsp;Copyright 2017 Elena Staylor</p>
     </div>
 </footer>
 </body>

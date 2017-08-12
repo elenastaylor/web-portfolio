@@ -21,7 +21,7 @@
 ?>
 */
 
-<?php
+/*<?php
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $mail->setFrom('elena.staylor@gmail.com', 'Your Name');
@@ -33,4 +33,4 @@ if(!$mail->send()) {
   echo 'Mailer error: ' . $mail->ErrorInfo;
 } else {
   echo 'Message has been sent.';
-}
+}*/
