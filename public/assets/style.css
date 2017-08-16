@@ -37,6 +37,7 @@ div.row {
 
 .nav-pills li a {
     margin: 2px;
+    color: white;
 }
 .nav-pills li a:hover {
     background-color: darkslateblue;
@@ -110,7 +111,7 @@ div.col-md-9 h1, h3, p {
 
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #section1, #section2, #section3, #section4 {
         height: 30%;
         width: auto;
@@ -124,7 +125,17 @@ div.col-md-9 h1, h3, p {
     [class*="col-md-2"] {
         width: 100%;
     }
-}*/
+}
+
+/*@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+/*    [class*="col-"] {
+        width: 90%;
+    }
+}
+*/
+
+
 /*small ipad*/
 @media screen and (max-width: 768px) {
     #section1, #section2, #section3, #section4, div.scroll, div.jumbotron, h1, h3 {
